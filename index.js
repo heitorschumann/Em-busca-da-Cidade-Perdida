@@ -14,10 +14,10 @@ function f (text, optionA, optionB) {
 
 function gameOver() {
     alert("Você morreu! Redirecionando para a página principal.");
-    window.location.href = "./startPage.html"
+    window.location.href = "./index.html"
 }
 
 function vGameOver() {
     alert("Parabéns você venceu! Redirecionando para a página principal.")
-    window.location.href = "./startPage.html"
+    window.location.href = "./index.html"
 }
