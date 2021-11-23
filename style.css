@@ -1,0 +1,275 @@
+/* Primeira paǵina */
+
+.bodyBackgroundInitial {
+    height: 100%;
+    width: 100%;
+    background-image: url(./imagens/map-background.jpeg);
+}
+
+.mainFlex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.initialDisplay {
+    height: 400%;
+    width: 60%;
+    margin: 10% auto 20% auto; 
+    background-color: rgb(255, 255, 139);
+    border-radius: 25px;
+    border: 3px solid black;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 3%;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 500%;
+}
+
+.initialDisplay p {
+    font-family: 'Cinzel', serif;
+    font-size: 200%; 
+    margin: 3%;
+    text-align: justify;
+}
+
+.initialDisplay button{
+    margin: 2% auto;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.initialDisplay button a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+.initialDisplay button:hover {
+    transform: scale(1.2);    
+}
+
+.initialDisplay button a:hover {
+    color:rgb(252, 113, 0);
+}
+
+/* Escolha de personagens */
+
+.bodyBackgroundCharacter {
+    height: 100%;
+    width: 100%;
+    background-image: url(./imagens/map-background.jpeg);
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.bodyBackgroundCharacter h1{
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    background: rgb(255, 255, 139);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.mainCharacter {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.boxCharacter {
+    height: 70%;
+    width: 70%;
+    margin: 2%; 
+    padding: 2%;
+    background-color: rgb(255, 255, 139);
+    border-radius: 25px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.boxCharacter h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 300%;
+    margin: 0 15% ;
+}
+
+.boxCharacter .colorBox1{
+    height: 180px;
+    width: 180px;
+    background: red;
+    margin: 8% 0;
+}
+
+.boxCharacter .colorBox2{
+    height: 180px;
+    width: 180px;
+    background: green;
+    margin: 8% 0;
+}
+
+.boxCharacter .colorBox3{
+    height: 180px;
+    width: 180px;
+    background: blue;
+    margin: 8% 2%;
+}
+
+.boxCharacter p {
+    font-family: 'Cinzel', serif;
+    text-align: center; 
+    font-size: 150%; 
+}
+
+.boxCharacter button {
+    margin: 20px 20px 0 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.boxCharacter button a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+.boxCharacter button:hover {
+    transform: scale(1.2);    
+}
+
+.boxCharacter button a:hover {
+    color:rgb(252, 113, 0);
+}
+
+/* Forest style */
+
+.bodyBackgroundForest {
+    height: 100%;
+    width: 100%;
+    background-image: url(./imagens/forest.jpeg);
+}
+
+.levelTextDisplay {
+    height: 400%;
+    width: 60%;
+    margin: 13% auto 20% auto; 
+    padding: 50px;
+    background-color: rgb(255, 255, 139);
+    border-radius: 25px;
+    border: 3px solid black;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.levelTextDisplay p {
+    font-family: 'Cinzel', serif;
+    text-align: center; 
+    font-size: 150%;
+}
+
+.levelTextDisplay .escolha {
+    font-family: 'Cinzel', serif;
+    text-align: center; 
+    font-size: 150%;
+    font-weight: bold;
+    margin: 5%;
+}
+
+.levelTextDisplay button {
+    margin: 20px 20px 0 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.levelTextDisplay button:hover {
+    transform: scale(1.1);  
+    color:rgb(252, 113, 0);
+}
+
+/* Desert Style*/
+
+.bodyBackgroundDesert {
+    height: 100%;
+    width: 100%;
+    background-image: url(./imagens/desert.jpeg);
+}
+
+/* Ocean Style */
+
+.bodyBackgroundOcean {
+    height: 100%;
+    width: 100%;
+    background-image: url(./imagens/ocean.jpeg);
+}
+
+
+@media (max-width: 870px) {
+    .mainCharacter {
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .boxCharacter {
+        margin: 50px auto;
+        padding: 10%;
+    }
+
+    .boxCharacter h2 {
+        margin: 0 30%;
+        font-size: 250%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .bodyBackgroundCharacter h1 {
+        font-size: 250%;
+        width: 90%;
+        height: fit-content;
+    }
+}
