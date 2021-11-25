@@ -18,6 +18,7 @@
     height: 400%;
     width: 60%;
     margin: 10% auto 20% auto; 
+    padding: 2%;
     background-color: rgb(255, 255, 139);
     border-radius: 25px;
     border: 3px solid black;
@@ -249,6 +250,12 @@ h1 {
 
 
 @media (max-width: 870px) {
+    .initialDisplay {
+        font-size: 80%;
+        padding: 10%;
+        text-align: center;
+    }
+
     .mainCharacter {
         flex-flow: column wrap;
         justify-content: center;
